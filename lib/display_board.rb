@@ -64,3 +64,11 @@ def display_board(board5)
   puts "   |   | #{board5[8]} "
 end
 
+board = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
+def display_board(board)
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+end

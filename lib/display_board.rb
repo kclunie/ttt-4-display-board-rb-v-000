@@ -54,3 +54,12 @@ def display_board(board4)
   puts "-----------"
   puts " #{board4[6]} | #{board4[7]} | #{board4[8]} "
 end
+
+board5 = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
+def display_board(board5)
+  puts " #{board5[0]} |   |   "
+  puts "-----------"
+  puts "   | #{board5[4]} |   "
+  puts "-----------"
+  puts "   |   | #{board5[8]} "
+end

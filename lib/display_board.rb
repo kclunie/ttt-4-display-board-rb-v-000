@@ -19,12 +19,20 @@ def display_board(board)
   puts "   |   |   "
 end
 
-#board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
-#def display_board(board)
- # puts "  #{board[0]} |   |   "
-  #puts "-----------"
-  #puts "   |   |   "
-  #puts "-----------"
-  #puts "   |   |   "
-#end
+board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+def display_board(board)
+  puts " #{board[0]} |   |   "
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+end
 
+board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
+def display_board(board)
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+end

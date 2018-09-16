@@ -10,29 +10,29 @@ def display_board(board)
   puts "   |   |   "
 end
 
-board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-def display_board(board)
+board1 = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+def display_board(board1)
   puts "   |   |   "
   puts "-----------"
-  puts "   | #{board[4]} |   "
-  puts "-----------"
-  puts "   |   |   "
-end
-
-board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
-def display_board(board)
-  puts " #{board[0]} |   |   "
-  puts "-----------"
-  puts "   |   |   "
+  puts "   | #{board1[4]} |   "
   puts "-----------"
   puts "   |   |   "
 end
 
-board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
-def display_board(board)
-  puts " #{board[0]} |   |   "
+board2 = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+def display_board(board2)
+  puts " #{board2[0]} |   |   "
   puts "-----------"
-  puts "   | #{board[4]} |   "
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+end
+
+board3 = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
+def display_board(board3)
+  puts " #{board3[0]} |   |   "
+  puts "-----------"
+  puts "   | #{board3[4]} |   "
   puts "-----------"
   puts "   |   |   "
 end
@@ -46,11 +46,11 @@ def display_board(xboard)
   puts "   |   |   "
 end
 
-board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
-def display_board(board)
+board4 = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
+def display_board(board4)
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
   puts "-----------"
-  puts " #{board[6]} | #{board[7]} | #{board[8]} "
+  puts " #{board4[6]} | #{board4[7]} | #{board4[8]} "
 end

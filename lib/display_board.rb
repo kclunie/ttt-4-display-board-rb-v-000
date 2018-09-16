@@ -72,3 +72,12 @@ def display_board(board6)
   puts "-----------"
   puts " #{board6[6]} |   |   "
 end
+
+board7 = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
+def display_board(board7)
+  puts " #{board7[0]} | #{board7[1]} | #{board7[2]} "
+  puts "-----------"
+  puts " #{board7[3]}  |  #{board7[4]} |  #{board7[5]} "
+  puts "-----------"
+  puts "  #{board7[6]} |  #{board7[7]} | #{board7[8]}  "
+end

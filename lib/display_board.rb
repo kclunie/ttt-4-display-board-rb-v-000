@@ -64,11 +64,11 @@ def display_board(board5)
   puts "   |   | #{board5[8]} "
 end
 
-board = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
-def display_board(board)
-  puts "   |   |   "
+board6 = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
+def display_board(board6)
+  puts "   |   | #{board6[2]} "
   puts "-----------"
-  puts "   |   |   "
+  puts "   | #{board[4]} |   "
   puts "-----------"
-  puts "   |   |   "
+  puts " #{board[6]} |   |   "
 end

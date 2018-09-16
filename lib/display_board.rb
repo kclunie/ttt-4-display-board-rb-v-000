@@ -37,11 +37,11 @@ def display_board(board)
   puts "   |   |   "
 end
 
-#board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
-#def display_board(board)
- # puts " #{board[0]} | #{board[1]} | #{board[2]} "
-  #puts "-----------"
-  #puts "   |   |   "
-  #puts "-----------"
-  #puts "   |   |   "
-#end
+xboard = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+def display_board(xboard)
+  puts " #{xboard[0]} | #{xboard[1]} | #{xboard[2]} "
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+end
